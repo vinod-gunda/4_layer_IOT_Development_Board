@@ -1,0 +1,22 @@
+
+(footprint SOT323 (layer F.Cu) (tedit 6A733E89)
+  (descr "")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (fp_text value "SOT323" (at 0 0) (layer F.Fab)
+    (effects (font (size 0.787401574803 0.787401574803) (thickness 0.15)))
+  )
+  (pad COLLECTOR smd rect (at 0.0 0.0) (size 0.4064 0.889) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad EMITTER smd rect (at 0.6604 1.778) (size 0.4064 0.889) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (pad BASE smd rect (at -0.6604 1.778) (size 0.4064 0.889) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
+  (fp_poly
+    (pts
+      (xy -1.27147 0.0)
+      (xy 1.27 0.0)
+      (xy 1.27 1.27147)
+      (xy -1.27147 1.27147)
+    ) (layer F.SilkS) (width 0.01)
+  )
+)
